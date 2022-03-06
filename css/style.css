@@ -31,7 +31,7 @@ a {
 .z-index5 { z-index: 5;}
 
 /* color acua */
-.acua { color: coral}
+.acua { color: #20b2aa}
 
 /* button 1 */
 .button {
@@ -41,8 +41,8 @@ a {
 }
 .button a {
     color: white;
-    background: coral;
-    border: 2px solid coral;
+    background: #20b2aa;
+    border: 2px solid #20b2aa;
     border-radius: 6px;
     font-size: 20px;
     font-weight: 500;
@@ -50,7 +50,7 @@ a {
     transition: all 0.3s ease;
 }
 .button a:hover {
-    color: coral !important;
+    color: #20b2aa !important;
     background: #f1f1f1 !important;
 }
 
@@ -62,8 +62,8 @@ a {
 }
 .button2 a {
     color: white;
-    background: coral;
-    border: 2px solid coral;
+    background: #20b2aa;
+    border: 2px solid #20b2aa;
     border-radius: 6px;
     font-size: 20px;
     font-weight: 500;
@@ -71,7 +71,7 @@ a {
     transition: all 0.3s ease;
 }
 .button2 a:hover {
-    color: coral !important;
+    color: #20b2aa !important;
     background: #111 !important;
 }
 
@@ -83,8 +83,8 @@ a {
 }
 .button3 a {
     color: white;
-    background:coral;
-    border: 2px solid coral;
+    background:#20b2aa;
+    border: 2px solid #20b2aa;
     border-radius: 6px;
     font-size: 15px;
     font-weight: 500;
@@ -92,14 +92,14 @@ a {
     transition: all 0.3s ease;
 }
 .button3 a:hover {
-    color: coral !important;
+    color: #20b2aa !important;
     background: #111 !important;
 }
 
 /* dynamic-txt2 */
 #dynamic-txt2 {
     display: inline-block;
-    border-right: 2px solid coral;
+    border-right: 2px solid #20b2aa;
 }
 
 @media (max-width: 600px) {
@@ -149,7 +149,7 @@ a {
 
 /* down */
 header.down {
-    background:coral;
+    background:#20b2aa;
     height: 65px;
 }
 
@@ -313,7 +313,7 @@ header.down .navbar a {
 
 .about-container .about-i2 {
     grid-column: 1 / span 2;
-    color: coral;
+    color: #20b2aa;
     font-size: 20px;
     font-weight: 500;
     margin-top: -15px;
@@ -348,7 +348,7 @@ header.down .navbar a {
 }
 
 .about-container .about-i4 span {
-    color: coral;
+    color: #20b2aa;
     font-size: 25px;
     font-weight: 500;
 }
@@ -419,7 +419,7 @@ header.down .navbar a {
 
 .skills-container .skills-i2 {
     grid-column: 1 / span 2;
-    color: coral;
+    color: #20b2aa;
     font-size: 20px;
     font-weight: 500;
     margin-top: -15px;
@@ -455,8 +455,8 @@ header.down .navbar a {
     width: 70px;
     height: 70px;
     
-    border: 2px solid coral;
-    background: coral;
+    border: 2px solid #20b2aa;
+    background: #20b2aa;
     border-radius: 6px;
     padding: 10px;
 }
@@ -518,7 +518,7 @@ header.down .navbar a {
 
 .projects-container .projects-i2 {
     grid-column: 1 / span 3;
-    color: coral;
+    color: #20b2aa;
     font-size: 20px;
     font-weight: 500;
     margin-top: -15px;
@@ -559,13 +559,13 @@ header.down .navbar a {
     transition: all 0.3s ease;
 }
 .projects-i3 .projects-i3-s:hover {
-    background: coral;
+    background: #20b2aa;
     transform: scale(1.05);
     /* cursor: pointer; */
 }
 .projects-i3 .projects-i3-s:hover > .button3 a {
     background: #f1f1f1;
-    color: coral;
+    color: #20b2aa;
 }
 
 .projects-container .projects-i3 .p-i3-s1-ss1 img,
@@ -697,7 +697,7 @@ header.down .navbar a {
 
 .contact-container .contact-i2 {
     grid-column: 1 / span 2;
-    color: coral;
+    color: #20b2aa;
     font-size: 20px;
     font-weight: 500;
     margin-top: -15px;
@@ -751,8 +751,8 @@ header.down .navbar a {
 .contact-i4 form .c-i4-s5 {
     width: 200px;
     color: white;
-    background: coral;
-    border: 2px solid coral;
+    background: #20b2aa;
+    border: 2px solid #20b2aa;
     border-radius: 6px;
     font-size: 20px;
     font-weight: 500;
@@ -760,7 +760,7 @@ header.down .navbar a {
     cursor: pointer;
 }
 .c-i4-s5:hover {
-    color: coral !important;
+    color: #20b2aa !important;
     background: #f1f1f1 !important;
 }
 
