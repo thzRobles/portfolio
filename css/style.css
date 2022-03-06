@@ -758,6 +758,8 @@ header.down .navbar a {
     font-weight: 500;
     transition: all 0.3s ease;
     cursor: pointer;
+
+    justify-self: end;
 }
 .c-i4-s5:hover {
     color: #20b2aa !important;
