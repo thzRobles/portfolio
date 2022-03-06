@@ -1,0 +1,25 @@
+.about-container .dynamic-txt {
+    background: #111;
+    position: relative;
+}
+
+.about-container .dynamic-txt::after {
+    content: "";
+    border-left: 2px solid #20b2aa;
+    background: #111;
+    right: 0;
+    width: 110%;
+    height: 105%;
+    position: absolute;
+
+    animation: dynamictxt 1.7s infinite alternate steps(10);
+}
+
+@keyframes dynamictxt {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}

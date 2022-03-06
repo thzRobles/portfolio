@@ -1,0 +1,32 @@
+Atribuciones / skills
+
+html5
+<a href="https://www.flaticon.es/iconos-gratis/html-5" title="html 5 iconos">Html 5 iconos creados por Freepik - Flaticon</a>
+html5 border-radius, background orange
+<a href="https://www.flaticon.es/iconos-gratis/html5" title="html5 iconos">Html5 iconos creados por riajulislam - Flaticon</a>
+html5 border-radius, background black
+<a href="https://www.flaticon.es/iconos-gratis/html5" title="html5 iconos">Html5 iconos creados por riajulislam - Flaticon</a>
+
+js
+<a href="https://www.flaticon.es/iconos-gratis/javascript" title="javascript iconos">Javascript iconos creados por Freepik - Flaticon</a>
+
+css
+<a href="https://www.flaticon.es/iconos-gratis/css-3" title="css 3 iconos">Css 3 iconos creados por Freepik - Flaticon</a>
+
+git
+No permitido para uso comercial / slickpng
+
+github
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
+
+unity
+No permitido para uso comercial / slickpng
+
+C++
+<a href="https://www.flaticon.com/free-icons/c-" title="c++ icons">C++ icons created by Freepik - Flaticon</a>
+
+Adobe Illustrator
+Logo.wine
+
+C#
+<a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons">C sharp icons created by Freepik - Flaticon</a>
