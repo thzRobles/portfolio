@@ -147,39 +147,18 @@
             <div class="contact-item contact-i2">get in touch</div>
             <div class="contact-item contact-i3">Message me</div>
             <div class="contact-item contact-i4">
-                <form name="contact">
+                <form name="contact" method="POST" data-netlify="true">
                     <input class="c-i4-s1" type="text" name="name" id="" placeholder="Name">
                     <input class="c-i4-s2" type="email" name="email" id="" placeholder="Email">
                     <input class="c-i4-s3" type="text" name="subject" id="" placeholder="Subject">
                     <textarea class="c-i4-s4" name="message" id="" cols="30" rows="5" maxlength="500" placeholder="Message"></textarea>
-                    <input class="c-i4-s5" type="submit" value="Send message">
+                    <button class="" type="submit">Send message</button>
+                    <!-- <input class="c-i4-s5" type="submit" value="Send message"> -->
                 </form>
             </div>
         </div>
     </section>
-
-    <form name="contact" method="POST" data-netlify="true">
-        <p>
-          <input type="text" name="name" />  
-        </p>
-        <p>
-          <input type="email" name="email" />
-        </p>
-        <p>
-          <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-    </form>
-      
-
+    
     <!-- footer ---------------------------------------------------------- -->
     <footer class="section-footer">
         <div class="footer-container">
