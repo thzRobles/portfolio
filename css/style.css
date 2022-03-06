@@ -759,7 +759,7 @@ header.down .navbar a {
     transition: all 0.3s ease;
     cursor: pointer;
 
-    justify-self: end;
+    /* justify-self: end; */
 }
 .c-i4-s5:hover {
     color: #20b2aa !important;
