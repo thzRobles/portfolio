@@ -147,7 +147,7 @@
             <div class="contact-item contact-i2">get in touch</div>
             <div class="contact-item contact-i3">Message me</div>
             <div class="contact-item contact-i4">
-                <form name="contact" netlify>
+                <form name="contact">
                     <input class="c-i4-s1" type="text" name="name" id="" placeholder="Name">
                     <input class="c-i4-s2" type="email" name="email" id="" placeholder="Email">
                     <input class="c-i4-s3" type="text" name="subject" id="" placeholder="Subject">
@@ -157,6 +157,19 @@
             </div>
         </div>
     </section>
+
+    <form name="contact" netlify>
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+
     <!-- footer ---------------------------------------------------------- -->
     <footer class="section-footer">
         <div class="footer-container">
