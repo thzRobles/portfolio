@@ -732,7 +732,7 @@ header.down .navbar a {
 
 .contact-i4 form {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
 
@@ -753,6 +753,10 @@ header.down .navbar a {
     grid-column: 1 / span 2;
 }
 
+.recaptcha {
+    grid-column: 1 / span 2;
+}
+
 .contact-i4 form .c-i4-s5 {
     width: 200px;
     color: white;
@@ -764,8 +768,9 @@ header.down .navbar a {
     transition: all 0.3s ease;
     cursor: pointer;
 
-    justify-self: end;
+    /* justify-self: end; */
 }
+
 .c-i4-s5:hover {
     color: #20b2aa !important;
     background: #f1f1f1 !important;
