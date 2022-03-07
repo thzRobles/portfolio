@@ -753,8 +753,9 @@ header.down .navbar a {
     grid-column: 1 / span 2;
 }
 
-.captcha {
-    width: 130px;
+.recaptcha {
+    grid-column: 1 / span 2;
+    width: 100%
 }
 
 .contact-i4 form .c-i4-s5 {
@@ -768,7 +769,7 @@ header.down .navbar a {
     transition: all 0.3s ease;
     cursor: pointer;
 
-    justify-self: end;
+    /* justify-self: end; */
 }
 .c-i4-s5:hover {
     color: #20b2aa !important;
