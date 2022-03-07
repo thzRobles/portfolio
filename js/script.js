@@ -14,6 +14,7 @@ window.addEventListener("scroll", function() {
 
 });
 
+
 // // whriter machine effect 1
 // var txt1 = document.getElementById('dynamic-txt1');
 // var str1 = txt1.innerHTML;

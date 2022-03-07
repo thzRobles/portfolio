@@ -171,19 +171,17 @@ header.down {
     height: 65px;
 }
 
-header.down .navbar a {
+header.down .navbar a,
+header.down .navbar .brand {
     color: white;
 }
 
-@media (max-width: 900px) {
-    .nav-container {
+@media (max-width: 600px) {
+    .nav-container ul {
         display: none;
     }
-}
-
-@media (max-width: 600px) {
-    .section-header {
-        height: 0px;
+    .nav-container .navbar {
+        justify-content: center;
     }
 }
 
@@ -198,7 +196,8 @@ header.down .navbar a {
     position: fixed;
     z-index: 10;
 
-    background: #20b2aa;
+    background: white;
+    /* background: #f1f1f1; */
     bottom: 0;
     display: none;
 }
@@ -228,11 +227,15 @@ header.down .navbar a {
 }
 
 .navbar2 ul li a {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 35px;
+    /* font-weight: 500; */
     transition: color .3s ease;
 
-    color: white;
+    /* color: white; */
+}
+
+header.down > .section-header2 {
+    background-color: #20b2aa;
 }
 
 
