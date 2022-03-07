@@ -732,7 +732,7 @@ header.down .navbar a {
 
 .contact-i4 form {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto auto;
     gap: 15px;
 }
 
@@ -769,13 +769,6 @@ header.down .navbar a {
 .c-i4-s5:hover {
     color: #20b2aa !important;
     background: #f1f1f1 !important;
-}
-
-@media (max-width: 880px) {
-    .contact-container {
-        width: 100%;
-        margin: auto;
-    }
 }
 
 @media (max-width: 700px) {
