@@ -147,7 +147,8 @@
             <div class="contact-item contact-i2">get in touch</div>
             <div class="contact-item contact-i3">Message me</div>
             <div class="contact-item contact-i4">
-                <form name="contact" method="POST" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+                    <input class="display-none" name="bot-field">
                     <input class="c-i4-s1" type="text" name="name" id="" placeholder="Name" required>
                     <input class="c-i4-s2" type="email" name="email" id="" placeholder="Email" required>
                     <input class="c-i4-s3" type="text" name="subject" id="" placeholder="Subject" required>

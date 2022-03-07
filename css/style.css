@@ -33,6 +33,11 @@ a {
 /* color acua */
 .acua { color: #20b2aa}
 
+/* display none */
+.display-none {
+    display: none;
+}
+
 /* button 1 */
 .button {
     display: flex;
