@@ -773,7 +773,7 @@ header.down .navbar a {
 
 @media (max-width: 880px) {
     .contact-container {
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 }
