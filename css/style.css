@@ -771,6 +771,13 @@ header.down .navbar a {
     background: #f1f1f1 !important;
 }
 
+@media (max-width: 880px) {
+    .contact-container {
+        width: 90%;
+        margin: auto;
+    }
+}
+
 @media (max-width: 700px) {
     .contact-container .contact-i4 {
         width: 100%;
