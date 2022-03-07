@@ -58,4 +58,16 @@ const whriterMachine = (text = '', time = 200, tag = '') => {
     }, time)
 }
 
-whriterMachine(" FrontEnd Dev  ", 150, machine)
+whriterMachine(" FrontEnd Dev  ", 150, machine);
+
+// show effect
+let ubication = window.pageYOffset;
+window.onscroll = function() {
+    let displacement = window.pageYOffset;
+    if (ubication >= displacement) {
+        document.getElementById('section-header').style.top = '0';
+    }else {
+        document.getElementById('section-header').style.top = '-100px'
+    }
+    ubication = displacement;
+}
