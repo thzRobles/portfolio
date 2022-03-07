@@ -363,7 +363,7 @@ header.down .navbar a {
 
 .about-container .about-i6 {
     margin-left: 20px;
-} 
+}
 
 @media (max-width: 900px) {
     .about-container {
@@ -454,7 +454,7 @@ header.down .navbar a {
 .skills-i5 .s-i5-s {
     width: 70px;
     height: 70px;
-    
+
     border: 2px solid #20b2aa;
     background: #20b2aa;
     border-radius: 6px;
@@ -748,6 +748,10 @@ header.down .navbar a {
     grid-column: 1 / span 2;
 }
 
+.captcha {
+    width: 130px;
+}
+
 .contact-i4 form .c-i4-s5 {
     width: 200px;
     color: white;
@@ -759,7 +763,7 @@ header.down .navbar a {
     transition: all 0.3s ease;
     cursor: pointer;
 
-    /* justify-self: end; */
+    justify-self: end;
 }
 .c-i4-s5:hover {
     color: #20b2aa !important;
