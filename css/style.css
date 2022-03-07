@@ -753,10 +753,6 @@ header.down .navbar a {
     grid-column: 1 / span 2;
 }
 
-.proveflex {
-    display: flex;
-}
-
 .contact-i4 form .c-i4-s5 {
     width: 200px;
     color: white;
