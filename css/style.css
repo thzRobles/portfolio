@@ -260,8 +260,6 @@ section[id] {
 @media (max-width: 900px) {
     .main-container {
         width: 65%;
-        margin-top: 50px;
-        margin-bottom: 50px;
     }
 }
 
@@ -282,9 +280,6 @@ section[id] {
 @media (max-width: 600px) {
     .main-container {
         width: 90%;
-        /* padding-top: 30px; */
-        /* padding-bottom: 30px; */
-
         margin-left: 30%;
 
     }
@@ -304,9 +299,6 @@ section[id] {
 @media (max-width: 500px) {
     .main-container {
         width: 90%;
-        padding-top: 30px;
-        padding-bottom: 30px;
-
         margin-left: 20%;
     }
 }
@@ -314,9 +306,6 @@ section[id] {
 @media (max-width: 450px) {
     .main-container {
         width: 90%;
-        padding-top: 30px;
-        padding-bottom: 30px;
-
         margin-left: 10%;
     }
 }
@@ -324,9 +313,6 @@ section[id] {
 @media (max-width: 380px) {
     .main-container {
         width: 90%;
-        padding-top: 30px;
-        padding-bottom: 30px;
-
         margin-left: 5%;
     }
 }
@@ -334,9 +320,6 @@ section[id] {
 @media (max-width: 365px) {
     .main-container {
         width: 90%;
-        padding-top: 30px;
-        padding-bottom: 30px;
-
     }
 }
 
@@ -820,6 +803,10 @@ section[id] {
 .c-i4-s5:hover {
     color: #20b2aa !important;
     background: #f1f1f1 !important;
+}
+
+@media (max-width: 900px) {
+    /*  */
 }
 
 @media (max-width: 700px) {
