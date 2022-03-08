@@ -150,6 +150,10 @@ header.down .navbar .brand {
     color: white;
 }
 
+section[id] {
+    scroll-margin-top: 0px;
+}
+
 /* nav container */
 .nav-container {
     width: 85%;
@@ -278,8 +282,8 @@ header.down .navbar .brand {
 @media (max-width: 600px) {
     .main-container {
         width: 90%;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        /* padding-top: 30px; */
+        /* padding-bottom: 30px; */
 
         margin-left: 30%;
 
@@ -415,8 +419,8 @@ header.down .navbar .brand {
 
 @media (max-width: 900px) {
     .about-container {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        /* padding-top: 50px; */
+        /* padding-bottom: 50px; */
         display: flex;
         flex-direction: column;
     }
@@ -428,8 +432,8 @@ header.down .navbar .brand {
 @media (max-width: 600px) {
     .about-container {
         width: 90%;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        /* padding-top: 30px; */
+        /* padding-bottom: 30px; */
         display: flex;
         flex-direction: column;
     }
@@ -519,8 +523,8 @@ header.down .navbar .brand {
 
 @media (max-width: 900px) {
     .skills-container {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        /* padding-top: 50px; */
+        /* padding-bottom: 50px; */
         display: flex;
         flex-direction: column;
     }
@@ -533,8 +537,8 @@ header.down .navbar .brand {
     .skills-container {
         width: 90%;
         margin: auto;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        /* padding-top: 30px; */
+        /* padding-bottom: 30px; */
         display: flex;
         flex-direction: column;
     }
@@ -708,8 +712,8 @@ header.down .navbar .brand {
     .projects-container {
         width: 90%;
         margin: auto;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        /* padding-top: 30px; */
+        /* padding-bottom: 30px; */
         display: flex;
         flex-direction: column;
     }
@@ -828,8 +832,8 @@ header.down .navbar .brand {
     .contact-container {
         width: 90%;
         margin: auto;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        /* padding-top: 30px; */
+        /* padding-bottom: 30px; */
         display: flex;
         flex-direction: column;
     }
