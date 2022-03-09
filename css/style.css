@@ -144,6 +144,11 @@ header.down {
     height: 65px;
 }
 
+.brand {
+    color: #20b2aa;
+    font-weight: 800;
+}
+
 header.down .navbar a,
 header.down .navbar2 a,
 header.down .navbar .brand {
@@ -882,9 +887,4 @@ section[id] {
     font-weight: 100;
 }
 
-@media (max-width: 600px) {
-    .footer-container {
-        width: 60%;
-    }
-}
 
