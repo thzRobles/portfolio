@@ -138,15 +138,15 @@ a {
     z-index: 10;
 }
 
+.brand {
+    color: #20b2aa;
+    font-weight: 800;
+}
+
 /* down */
 header.down {
     background:#20b2aa;
     height: 65px;
-}
-
-.brand {
-    color: #20b2aa;
-    font-weight: 800;
 }
 
 header.down .navbar a,
