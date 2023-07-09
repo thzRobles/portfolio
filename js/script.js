@@ -59,7 +59,7 @@ const whriterMachine = (text = '', time = 200, tag = '') => {
     }, time)
 }
 
-whriterMachine(" FrontEnd Dev  ", 150, machine);
+whriterMachine(" Software Engineer  ", 150, machine);
 
 // show effect
 let ubication = window.pageYOffset;
