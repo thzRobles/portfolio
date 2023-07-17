@@ -378,6 +378,13 @@ section[id] {
     height: 400px;
     object-fit: cover;
     border-radius: 6px;
+
+    transition: .3s ease all;
+    filter: grayscale(80%);
+}
+
+.about-container .about-i3 img:hover{
+    filter: grayscale(0%);
 }
 
 .about-container .about-i4 {
