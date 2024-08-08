@@ -169,6 +169,8 @@ section[id] {
     width: 85%;
     display: flex;
     align-items: center;
+    padding-right: 170px;
+    padding-left: 180px;
 }
 
 /* navbar 1 */
@@ -250,7 +252,7 @@ section[id] {
     /* justify-items: center; */
     justify-content: start;
     align-items: center;
-    padding-left: 350px;
+    padding-left: 330px;
 }
 
 .main-container {
@@ -295,7 +297,7 @@ section[id] {
     /* border: 1px solid red; */
     width: 100%;
     position: absolute;
-    height: 140vh;
+    height: 100vh;
     right: 0px;
     top: 0;
     
@@ -307,7 +309,7 @@ section[id] {
     /* border: 1px solid green; */
     height: 100%;
     /* opacity: 90%; */
-    margin-right: 150px;
+    margin-right: 230px;
 
 }
 
