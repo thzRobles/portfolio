@@ -35,7 +35,8 @@ a {
 
 /* nepal */
 .dynamic-txts li {
-    color: #20b2aa;
+    /* color: #20b2aa; */
+    color: #666666;
 }
 .dynamic-txts li span::after {
     border-left: 2px solid #20b2aa;
@@ -59,8 +60,10 @@ a {
 }
 .button a {
     color: white;
-    background: #20b2aa;
-    border: 2px solid #20b2aa;
+    /* background: #20b2aa; */
+    /* border: 2px solid #20b2aa; */
+    background: #111111;
+    /* border: 2px solid #111111; */
     border-radius: 6px;
     font-size: 20px;
     font-weight: 500;
@@ -139,7 +142,9 @@ a {
 }
 
 .brand {
-    color: #20b2aa;
+    /* color: #20b2aa; */
+    color: #666666;
+    font-size: 22px;
     font-weight: 800;
 }
 
@@ -182,9 +187,14 @@ section[id] {
 }
 
 .navbar ul li a {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     transition: color .3s ease;
+}
+
+.menu1 a {
+    color: #666666;
+    text-transform: uppercase;
 }
 
 /* navbar 2 */
@@ -253,13 +263,22 @@ section[id] {
 }
 
 .txt-style1 {
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 500;
+    color: #666666;
+    text-transform: uppercase;
+    padding-left: 12px;
 }
 
 .txt-style2 {
     font-size: 75px;
     font-weight: 600;
+}
+
+.txt-style3 {
+    font-size: 44px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .main-container .intro-wrapper {
@@ -276,8 +295,8 @@ section[id] {
     /* border: 1px solid red; */
     width: 100%;
     position: absolute;
-    height: 100vh;
-    right: 0;
+    height: 140vh;
+    right: 0px;
     top: 0;
     
     display: flex;
@@ -289,6 +308,7 @@ section[id] {
     height: 100%;
     /* opacity: 90%; */
     margin-right: 150px;
+
 }
 
 @media (max-width: 900px) {
