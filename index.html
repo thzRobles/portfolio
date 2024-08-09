@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,75 +14,93 @@
     <link rel="stylesheet" href="css/dynamictxt.css">
     <!-- google fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <!-- header ---------------------------------------------------------- -->
     <header class="section-header" id="section-header">
         <!-- nav -->
         <div class="nav-container">
-            <!-- navbar 1 -->
-            <nav class="navbar" id="navbar">
-                <div class="brand logo">&lt;JR/&gt;</div>
-                <ul class="menu1">
-                    <li><a href="#section-main" class="selected"></a></li>
-                    <li><a href="#section-about" class="selected">about</a></li>
-                    <li><a href="#section-skills" class="selected">skills</a></li>
-                    <li><a href="#section-projects" class="selected">projects</a></li>
-                    <li><a href="#section-contact" class="selected">contact</a></li>
-                </ul>
-            </nav>
-            <!-- navbar 2 -->
-            <nav class="navbar2" id="navbar2">
-                <ul class="menu2">
-                    <li><a href="#section-main" class="selected"><i class='bx bx-home-alt'></i></a></li>
-                    <li><a href="#section-about" class="selected"><i class='bx bx-user'></i></a></li>
-                    <li><a href="#section-skills" class="selected"><i class='bx bx-code-alt'></i></a></li>
-                    <li><a href="#section-projects" class="selected"><i class='bx bx-folder'></i></a></li>
-                    <li><a href="#section-contact" class="selected"><i class='bx bx-envelope'></i></a></li>
-                </ul>
-            </nav>
+            <div class="nav-content">
+                <!-- navbar 1 -->
+                <nav class="navbar" id="navbar">
+                    <div class="brand logo"><h5>&lt;JR/&gt;</h5></div>
+                    <ul class="menu1">
+                        <li><a href="#section-main" class="selected"></a></li>
+                        <li><a href="#section-about" class="selected">about</a></li>
+                        <li><a href="#section-skills" class="selected">skills</a></li>
+                        <li><a href="#section-projects" class="selected">projects</a></li>
+                        <li><a href="#section-contact" class="selected">contact</a></li>
+                    </ul>
+                </nav>
+                <!-- navbar 2 -->
+                <nav class="navbar2" id="navbar2">
+                    <ul class="menu2">
+                        <li><a href="#section-main" class="selected"><i class='bx bx-home-alt'></i></a></li>
+                        <li><a href="#section-about" class="selected"><i class='bx bx-user'></i></a></li>
+                        <li><a href="#section-skills" class="selected"><i class='bx bx-code-alt'></i></a></li>
+                        <li><a href="#section-projects" class="selected"><i class='bx bx-folder'></i></a></li>
+                        <li><a href="#section-contact" class="selected"><i class='bx bx-envelope'></i></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
     <!-- main ------------------------------------------------------------ -->
     <section class="section-main" id="section-main">
         <div class="main-container">
-            <div class="item-presentation-container">
-                <!-- item -->
-                <div class="txt-style1">Hello, my name is</div>
-                <!-- item -->
-                <div class="txt-style3">Juan Manuel Robles</div>
-                <!-- item -->
-                <div class="intro-wrapper">
-                    <!-- <div class="static-txt">And I'm a </div> -->
-                    <div class="static-txt">       </div>
-                    <ul class="dynamic-txts">
-                        <li><span>FrontEnd</span></li>
-                        <li><span>BackEnd</span></li>
-                        <li><span>FullStack</span></li>
-                        <li><span>Developer</span></li>
-                    </ul>
+            <div class="main-content">
+                <div class="item-presentation-container">
+                    <!-- item -->
+                    <div class="txt-style1"><h5>Hello, my name is</h5></div>
+                    <!-- item -->
+                    <div class="txt-style3"><h1>Juan Robles</h1></div>
+                    <!-- item -->
+                    <div class="intro-wrapper">
+                        <!-- <div class="static-txt">And I'm a </div> -->
+                        <div class="static-txt"> </div>
+                        <ul class="dynamic-txts">
+                            <li><span>FrontEnd</span></li>
+                            <li><span>BackEnd</span></li>
+                            <li><span>FullStack</span></li>
+                            <li><span>Developer</span></li>
+                        </ul>
+                    </div>
+                    <!-- item -->
+                    <div class="button"><a href="#section-about" class="selected">Know me</a></div>
                 </div>
-                <!-- item -->
-                <div class="button"><a href="#section-about">Know me</a></div>
+                <!-- photo -->
+                <div class="main-item container-photo-jrbg"><img id="item-photo-jrbg" src="img/photos/jr_highFidelity.png" alt=""></div>
             </div>
-            <!-- photo -->
-            <div class="main-item container-photo-jrbg"><img id="item-photo-jrbg" src="img/photos/jr_bg_white_16.jpeg" alt=""></div>
         </div>
     </section>
-    
+
     <!-- about ----------------------------------------------------------- -->
     <section class="section-about" id="section-about">
         <div class="about-container">
+
+        
+        <div class="about-content">
             <div class="about-item about-i1">About me</div>
             <div class="about-item about-i2">who i am</div>
-            <div class="about-item about-i3"><img id="img-photo" src="img/photos/jr2.jpeg" alt=""></div>
-            <div class="about-item about-i4">I'm Juan <span id="dynamic-txt2"></span></div>
+            <!-- <div class="about-item about-i3"><img id="img-photo" src="img/photos/jr2.jpeg" alt=""></div> -->
+            <!-- <div class="about-item about-i4">I'm Juan <span id="dynamic-txt2"></span></div> -->
             <!-- <div class="about-item about-i5"><p>Hola! como estas?, soy Juan, Ingeniero en Sistemas Computacionales, me da mucho gusto saludarte, espero que te la estes pasando muy bien en tu recorrido por mi sitio web y que encuentres en mi perfil lo que estas buscando. <br> Saludos!</p></div> -->
-            <div class="about-item about-i5"><p>Hello! How are you? I'm Juan, a Computer Systems Engineer. It gives me great pleasure to greet you. I hope you're having a great time on your tour of my website and that you find what you're looking for in my profile.</p></div>
-            <div class="about-item about-i6 button2"><a target="_blank" download="Curriculum" href="docs/Juan_Robles_CV_(08-07-2023)_V1.pdf">Download CV</a></div>
+            <div class="about-item about-i5">
+                <p>Hello! How are you? I'm Juan, a Computer Systems Engineer. It gives me great pleasure to greet you. I
+                    hope you're having a great time on your tour of my website and that you find what you're looking for
+                    in my profile.
+                </p>
+            </div>
+            <div></div>
+            <div class="about-item button"><a target="_blank" download="Curriculum" href="docs/Juan_Robles_CV_(08-07-2023)_V1.pdf">Download CV</a></div>
+        </div>
         </div>
     </section>
 
@@ -92,7 +111,11 @@
             <div class="skills-item skills-i2">what i know</div>
             <div class="skills-item skills-i3">My creative skills & experiences</div>
             <!-- <div class="skills-item skills-i4"><p>Como parte de mis habilidades e tenido la oportunidad de aprender tecnologias web tanto del Front como del Back gracias a los proyectos en los que he colaborado. <br>Espero te gusten mis proyectos! estan debajo...</p></div> -->
-            <div class="skills-item skills-i4"><p>As part of my skills, I have had the opportunity to learn web technologies both on the Front-end and Back-end thanks to the projects I have collaborated on... <br>I hope you like my projects! they are under, in the next section...</p></div>
+            <div class="skills-item skills-i4">
+                <p>As part of my skills, I have had the opportunity to learn web technologies both on the Front-end and
+                    Back-end thanks to the projects I have collaborated on... <br>I hope you like my projects! they are
+                    under, in the next section...</p>
+            </div>
             <div class="skills-item skills-i5">
                 <div class="s-i5-s"><img src="img/skills/html5-white.png" alt="html5" title="html5"></div>
                 <div class="s-i5-s"><img src="img/skills/css3-white.png" alt="css3" title="css3"></div>
@@ -101,16 +124,20 @@
                 <div class="s-i5-s"><img src="img/skills/npm-white.png" alt="npm" title="npm"></div>
                 <div class="s-i5-s"><img src="img/skills/git-white.png" alt="git" title="git"></div>
                 <div class="s-i5-s"><img src="img/skills/github-white.png" alt="github" title="github"></div>
-                <div class="s-i5-s"><img src="img/skills/vscode-white.png" alt="visual studio code" title="visual studio code"></div>
-                <div class="s-i5-s"><img src="img/skills/vs2019-white.png" alt="visual studio 2019" title="visual studio 2019"></div>
+                <div class="s-i5-s"><img src="img/skills/vscode-white.png" alt="visual studio code"
+                        title="visual studio code"></div>
+                <div class="s-i5-s"><img src="img/skills/vs2019-white.png" alt="visual studio 2019"
+                        title="visual studio 2019"></div>
                 <!-- <div class="s-i5-s"><img src="img/skills/sass-white.png" alt="sass" title="sass"></div> -->
                 <div class="s-i5-s"><img src="img/skills/bootstrap-white.png" alt="bootstrap" title="bootstrap"></div>
-                <div class="s-i5-s"><img src="img/skills/materialize-white.png" alt="materialize" title="materialize"></div>
+                <div class="s-i5-s"><img src="img/skills/materialize-white.png" alt="materialize" title="materialize">
+                </div>
                 <div class="s-i5-s"><img src="img/skills/swiper-white.png" alt="swiper" title="swiper"></div>
                 <div class="s-i5-s"><img src="img/skills/mysql-white.png" alt="mySQL" title="mySQL"></div>
                 <div class="s-i5-s"><img src="img/skills/unity-white.png" alt="unity" title="unity"></div>
                 <div class="s-i5-s"><img src="img/skills/csharp-white.png" alt="c#" title="c#"></div>
-                <div class="s-i5-s"><img src="img/skills/aillustrator-white.png" alt="Adobe Illustrator" title="Adobe Illustrator"></div>
+                <div class="s-i5-s"><img src="img/skills/aillustrator-white.png" alt="Adobe Illustrator"
+                        title="Adobe Illustrator"></div>
             </div>
             <!-- <div class="skills-item skills-i6 button"><a href="">Read more</a></div> -->
         </div>
@@ -132,17 +159,19 @@
                         <img class="tech" src="img/skills/css3-white.png" alt="">
                         <img class="tech" src="img/skills/js-white.png" alt="">
                     </div>
-                    <div class="p-i3-s1-ss3 button3"><a target="_blank" href="https://thzrobles.github.io/macris/">Demo</a></div>
-                    <div class="p-i3-s1-ss4 button3"><a target="_blank" href="https://github.com/thzRobles/macris">Repo</a></div>
+                    <div class="p-i3-s1-ss3 button3"><a target="_blank"
+                            href="https://thzrobles.github.io/macris/">Demo</a></div>
+                    <div class="p-i3-s1-ss4 button3"><a target="_blank"
+                            href="https://github.com/thzRobles/macris">Repo</a></div>
                 </div>
                 <!-- item-son -->
                 <!-- <div class="projects-i3-s projects-i3-s2">
                     <div class="p-i3-s2-ss2">Santhscouting web</div>
                     <div class="p-i3-s2-ss1"><img src="img/screenshots/santhscouting.png" alt=""></div> -->
 
-                    <!-- <div class="p-i3-s2-ss2">Santhscouting web</div> -->
+                <!-- <div class="p-i3-s2-ss2">Santhscouting web</div> -->
 
-                    <!-- <div class="p-i3-s2-sstech">
+                <!-- <div class="p-i3-s2-sstech">
                         <img class="tech" src="img/skills/html5-white.png" alt="">
                         <img class="tech" src="img/skills/css3-white.png" alt="">
                         <img class="tech" src="img/skills/js-white.png" alt="">
@@ -159,7 +188,8 @@
                         <img class="tech" src="img/skills/css3-white.png" alt="">
                         <img class="tech" src="img/skills/js-white.png" alt="">
                     </div>
-                    <div class="p-i3-s2-ss3 button3"><a target="_blank" href="https://cvs-pharmacy.com.mx/">Demo</a></div>
+                    <div class="p-i3-s2-ss3 button3"><a target="_blank" href="https://cvs-pharmacy.com.mx/">Demo</a>
+                    </div>
                     <!-- <div class="p-i3-s2-ss4 button3"><a target="_blank" href="https://github.com/thzRobles/scouting-v1.3">Repo</a></div> -->
                 </div>
                 <!-- item-son -->
@@ -172,8 +202,10 @@
                         <img class="tech" src="img/skills/css3-white.png" alt="">
                         <img class="tech" src="img/skills/js-white.png" alt="">
                     </div>
-                    <div class="p-i3-s1-ss3 button3"><a target="_blank" href="https://refaccionaria.onrender.com">Demo</a></div>
-                    <div class="p-i3-s1-ss4 button3"><a target="_blank" href="https://github.com/thzRobles/refaccionaria">Repo</a></div>
+                    <div class="p-i3-s1-ss3 button3"><a target="_blank"
+                            href="https://refaccionaria.onrender.com">Demo</a></div>
+                    <div class="p-i3-s1-ss4 button3"><a target="_blank"
+                            href="https://github.com/thzRobles/refaccionaria">Repo</a></div>
                 </div>
                 <!-- item-son -->
                 <div class="projects-i3-s projects-i3-s3">
@@ -185,11 +217,14 @@
                         <img class="tech" src="img/skills/css3-white.png" alt="">
                         <img class="tech" src="img/skills/js-white.png" alt="">
                     </div>
-                    <div class="p-i3-s3-ss3 button3"><a target="_blank" href="https://thzrobles.github.io/calculadora2/">Demo</a></div>
-                    <div class="p-i3-s3-ss4 button3"><a target="_blank" href="https://github.com/thzRobles/calculadora2">Repo</a></div>
+                    <div class="p-i3-s3-ss3 button3"><a target="_blank"
+                            href="https://thzrobles.github.io/calculadora2/">Demo</a></div>
+                    <div class="p-i3-s3-ss4 button3"><a target="_blank"
+                            href="https://github.com/thzRobles/calculadora2">Repo</a></div>
                 </div>
             </div>
-            <div class="projecs-item projects-i4 button2"><a target="_blank" href="https://github.com/thzRobles?tab=repositories">More</a></div>
+            <div class="projecs-item projects-i4 button2"><a target="_blank"
+                    href="https://github.com/thzRobles?tab=repositories">More</a></div>
         </div>
     </section>
 
@@ -200,12 +235,14 @@
             <div class="contact-item contact-i2">get in touch</div>
             <div class="contact-item contact-i3">Message me</div>
             <div class="contact-item contact-i4">
-                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+                    data-netlify-recaptcha="true">
                     <input class="display-none" name="bot-field">
                     <input class="c-i4-s1" type="text" name="name" id="" placeholder="Name" required>
                     <input class="c-i4-s2" type="email" name="email" id="" placeholder="Email" required>
                     <input class="c-i4-s3" type="text" name="subject" id="" placeholder="Subject" required>
-                    <textarea class="c-i4-s4" name="message" id="" cols="30" rows="5" maxlength="500" placeholder="Message"></textarea>
+                    <textarea class="c-i4-s4" name="message" id="" cols="30" rows="5" maxlength="500"
+                        placeholder="Message"></textarea>
                     <div class="recaptcha" data-netlify-recaptcha="true"></div>
                     <input class="c-i4-s5" type="submit" value="Send message">
                 </form>
@@ -217,9 +254,13 @@
     <footer class="section-footer">
         <div class="footer-container">
             <div class="footer-icons">
-                <div class="footer-item"><a target="_blank" href="https://www.facebook.com/rude.john.22"><img src="img/logos/facebook-logo-white.png" alt=""></a></div>
-                <div class="footer-item"><a target="_blank" href="https://github.com/thzRobles?tab=repositories"><img src="img/logos/github-logo-white.png" alt=""></a></div>
-                <div class="footer-item"><a target="_blank" href="https://www.linkedin.com/in/juan-robles-01218522a/"><img src="img/logos/linkedin-logo-white.png" alt=""></a></div>
+                <div class="footer-item"><a target="_blank" href="https://www.facebook.com/rude.john.22"><img
+                            src="img/logos/facebook-logo-white.png" alt=""></a></div>
+                <div class="footer-item"><a target="_blank" href="https://github.com/thzRobles?tab=repositories"><img
+                            src="img/logos/github-logo-white.png" alt=""></a></div>
+                <div class="footer-item"><a target="_blank"
+                        href="https://www.linkedin.com/in/juan-robles-01218522a/"><img
+                            src="img/logos/linkedin-logo-white.png" alt=""></a></div>
             </div>
             <div class="footer-copyright">
                 <div>Copyright © 2022. @juanrobles</div>
@@ -229,4 +270,5 @@
     </footer>
     <script src="js/script.js"></script>
 </body>
+
 </html>
