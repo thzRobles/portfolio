@@ -43,6 +43,7 @@ a {
     --fourth-color-light-theme: #414141;
     --five-color-light-theme: #777777;
     --six-color-light-theme: #111111;
+    --seven-color-light-theme: #5E5E5E;
 
     --main-color-dark-theme: #f5f5f5;
     --second-color-dark-theme: #fff;
@@ -91,7 +92,7 @@ a {
 .button {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .button a {
     color: var(--second-color-light-theme);
@@ -168,6 +169,26 @@ a {
     }
 }
 
+/* Titles */
+.about-i1,
+.skills-i1,
+.projects-i1,
+.contact-i1{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--third-color-light-theme) !important;
+}
+
+/* subtitles */
+.about-subtitle,
+.skills-subtitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--fourth-color-light-theme);
+    margin-bottom: 15px;
+}
+
 /* header ----------------------------------------------------------------- */
 .section-header {
     width: 100%;
@@ -182,7 +203,7 @@ a {
     z-index: 10;
 }
 
-.brand h5{
+.brand {
     /* color: var(--five-color-light-theme); */
     color: var(--fourth-color-light-theme);
     font-size: 44px;
@@ -201,7 +222,7 @@ header.down {
     padding-bottom: 10px;
 }
 
-header.down .brand h5 {
+header.down .brand {
     font-size: 34px;
 }
 
@@ -227,7 +248,7 @@ section[id] {
 /* nav content */
 .nav-content {
     /* border: 1px solid purple; */
-    width: 65%;
+    width: 60%;
     height: 100%;
     margin: auto;
 }
@@ -304,7 +325,7 @@ section[id] {
 .section-main {
     /* border: 1px solid black; */
     width: 100%;
-    height: 90vh;
+    height: 95vh;
 
     /* background: #f1f1f1; */
     background: var(--main-color-light-theme);
@@ -329,7 +350,7 @@ section[id] {
 
 .main-content {
     /* border: 1px solid salmon; */
-    width: 65%;
+    width: 60%;
     margin: auto;
 }
 
@@ -337,11 +358,7 @@ section[id] {
     /* border: 1px solid green; */
 }
 
-.txt-style1 h1, 
-.txt-style1 h2,
-.txt-style1 h3,
-.txt-style1 h4,
-.txt-style1 h5 {
+.txt-style1 {
     font-size: 16px;
     font-weight: 700;
     color: #919191;
@@ -356,11 +373,7 @@ section[id] {
     font-weight: 600;
 }
 
-.txt-style3 h1,
-.txt-style3 h2,
-.txt-style3 h3,
-.txt-style3 h4,
-.txt-style3 h5 {
+.txt-style3 {
     font-size: 44px;
     font-weight: 700;
     color: var(--fourth-color-light-theme);
@@ -385,8 +398,8 @@ section[id] {
     /* border: 1px solid pink; */
     /* width: 100%; */
     position: absolute;
-    height: 90vh;
-    right: 17%;
+    height: 95vh;
+    right: 20%;
     top: 0;
     
     display: flex;
@@ -478,7 +491,7 @@ width: 100%;
 }
 
 .about-content {
-    width: 65%;
+    width: 60%;
     margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -486,16 +499,14 @@ width: 100%;
     grid-template-columns: repeat(2, 1fr);
     gap: 6px;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .about-container .about-i1 {
     grid-column: 1 / span 2;
     color: var(--third-color-light-theme);
-    font-size: 40px;
-    font-weight: 500;
-
-    text-transform: uppercase;
+    /* font-size: 40px; */
+    /* font-weight: 500; */
 }
 
 .about-container .about-i2 {
@@ -558,7 +569,7 @@ width: 100%;
     line-height: 24px;
     font-weight: 500;
 
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 /* TODO: Separar padre y hacer contenedor */
@@ -569,6 +580,66 @@ width: 100%;
     height: 100%;
 }
 
+/* skills */
+.about-item .skills-i5 {
+    grid-area: 3 / 2 / 6 / 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(47px, 1fr));
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    gap: 6px;
+    padding: 6px;
+}
+
+.about-item .skills-i5 .s-i5-s {
+    width: 47px;
+    height: 47px;
+
+    border: 2px solid var(--five-color-light-theme);
+    background: var(--five-color-light-theme);
+    border-radius: 7px;
+    padding: 7px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-i7 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-i7 .about-i7-skill {
+    display: flex;
+    gap: 7px;
+}
+
+.about-greeting {
+    font-size: 'poppins';
+    color: var(--five-color-light-theme);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+
+    /* margin-left: 20px; */
+}
+
+.skills-theme {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: var(--seven-color-light-theme);
+    box-sizing: border-box;
+    align-self: center;
+}
 
 @media (max-width: 900px) {
     .about-container {
@@ -606,10 +677,14 @@ width: 100%;
 }
 
 .skills-container {
-    width: 85%;
+    width: 100%;
+}
+
+.skills-content {
+    width: 60%;
     margin: auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 6px;
@@ -618,8 +693,8 @@ width: 100%;
 .skills-container .skills-i1 {
     grid-column: 1 / span 2;
     color: black;
-    font-size: 40px;
-    font-weight: 500;
+    /* font-size: 40px; */
+    /* font-weight: 500; */
 }
 
 .skills-container .skills-i2 {
@@ -648,22 +723,23 @@ width: 100%;
 .skills-container .skills-i5 {
     grid-area: 3 / 2 / 6 / 3;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(47px, 1fr));
     justify-content: space-around;
     justify-items: center;
     align-items: center;
     gap: 6px;
     padding: 6px;
+    padding-left: 15%;
 }
 
 .skills-i5 .s-i5-s {
-    width: 70px;
-    height: 70px;
+    width: 47px;
+    height: 47px;
 
     border: 2px solid var(--five-color-light-theme);
     background: var(--five-color-light-theme);
-    border-radius: 6px;
-    padding: 10px;
+    border-radius: 5px;
+    padding: 7px;
     
     display: flex;
     justify-content: center;
@@ -716,8 +792,8 @@ width: 100%;
 .projects-container .projects-i1 {
     grid-column: 1 / span 3;
     color: var(--second-color-light-theme);
-    font-size: 40px;
-    font-weight: 500;
+    /* font-size: 40px; */
+    /* font-weight: 500; */
 }
 
 .projects-container .projects-i2 {
@@ -895,8 +971,8 @@ width: 100%;
 .contact-container .contact-i1 {
     grid-column: 1 / span 2;
     color: black;
-    font-size: 40px;
-    font-weight: 500;
+    /* font-size: 40px; */
+    /* font-weight: 500; */
 }
 
 .contact-container .contact-i2 {
