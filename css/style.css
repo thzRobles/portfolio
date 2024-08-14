@@ -527,7 +527,7 @@ width: 100%;
     align-self: center;
 }
 
-.about-container .about-i1, .about-i4, .about-i6 a{
+.about-container .about-i1, .about-i4 {
     color: var(--third-color-light-theme);
 }
 
@@ -569,15 +569,10 @@ width: 100%;
     line-height: 24px;
     font-weight: 500;
 
-    /* margin-left: 20px; */
 }
 
-/* TODO: Separar padre y hacer contenedor */
 .about-container .about-i6 {
-    /* border: 1px solid black; */
-    margin-left: 20px;
-    width: 100%;
-    height: 100%;
+    grid-column: 1 / span 2;
 }
 
 /* skills */
@@ -608,12 +603,13 @@ width: 100%;
 
 .about-i7 {
     display: grid;
+    gap: 15px;
     grid-template-columns: repeat(2, 1fr);
     padding-left: 15%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    justify-content: center;
-    align-items: center;
+    /* padding-top: 10%; */
+    /* padding-bottom: 10%; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .about-i7 .about-i7-skill {
@@ -640,6 +636,11 @@ width: 100%;
     box-sizing: border-box;
     align-self: center;
 }
+
+.about-i7-skill span {
+    align-self: center;
+}
+
 
 @media (max-width: 900px) {
     .about-container {
@@ -717,7 +718,13 @@ width: 100%;
 }
 
 .skills-container .skills-i4 {
+    font-size: 'poppins';
+    color: var(--five-color-light-theme);
     font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+
+    /* margin-left: 20px; */
 }
 
 .skills-container .skills-i5 {
@@ -780,29 +787,48 @@ width: 100%;
 }
 
 .projects-container {
-    width: 85%;
+    border: 1px solid red;
+    width: 100%;
+}
+
+.projects-content {
+    border: 1px solid yellow;
+    width: 60%;
     margin: auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 6px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* grid-template-columns: repeat(3, 1fr); */
 }
 
 .projects-container .projects-i1 {
-    grid-column: 1 / span 3;
+    border: 1px solid coral;
+    /* grid-column: 1 / span 3; */
     color: var(--second-color-light-theme);
     /* font-size: 40px; */
     /* font-weight: 500; */
+
+    /* display: flex;
+    align-self: center; */
+    text-align: center;
 }
 
 .projects-container .projects-i2 {
-    grid-column: 1 / span 3;
+    border: 1px solid aqua;
+    /* grid-column: 1 / span 3; */
     color: var(--five-color-light-theme);
     font-size: 20px;
     font-weight: 500;
     margin-top: -15px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+
+    /* display: flex;
+    align-self: center; */
+    text-align: center;
+
 }
 
 .projects-container .projects-i1, .projects-i2 {
@@ -810,19 +836,19 @@ width: 100%;
     align-self: center;
 }
 
-.projects-container .projects-i3 {
+/* .projects-container .projects-i3 {
     grid-column: 1 / span 3;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(223px, 1fr));
-    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
     justify-items: center;
     align-items: center;
 
     color: var(--second-color-light-theme);
     gap: 40px;
-}
+} */
 
 .projects-i3 .projects-i3-s {
     width: 100%;
@@ -838,11 +864,13 @@ width: 100%;
     border-radius: 6px;
     transition: all 0.3s ease;
 }
+
 .projects-i3 .projects-i3-s:hover {
     background: var(--five-color-light-theme);
     transform: scale(1.05);
     /* cursor: pointer; */
 }
+
 .projects-i3 .projects-i3-s:hover > .button3 a {
     background: #f1f1f1;
     color: var(--five-color-light-theme);
@@ -947,8 +975,8 @@ width: 100%;
         flex-direction: column;
     }
     .projects-container .projects-i3 {
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        /* flex-direction: column; */
     }
 }
 

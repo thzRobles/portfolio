@@ -1,20 +1,16 @@
-/* styles.css */
-body {
-    /* font-family: Arial, sans-serif; */
-    /* margin: 0; */
-    /* padding: 20px; */
-    /* background-color: #f4f4f4; */
+* {
+    box-sizing: border-box;
 }
 
-.gallery-container {
+img {
+    max-width: 100%;
+}
+
+/* Con Flexbox */
+/* .gallery-container {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-}
-
-h1 {
-    /* margin-bottom: 20px; */
-    /* color: #333; */
 }
 
 .filter-buttons {
@@ -43,16 +39,63 @@ h1 {
 }
 
 .gallery-item {
-    width: 30%;
-    margin-bottom: 20px;
+    width: 33.33%;
     overflow: hidden;
-    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .gallery-item img {
     width: 100%;
     display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+} */
+
+/*  */
+.gallery-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+}
+
+.filter-buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.filter-buttons button.active,
+.filter-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.gallery {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    columns: 3 180px;
+}
+
+.gallery-item {
+    /* width: 33.33%; */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    /* width: 100%; */
+    /* display: block; */
     transition: transform 0.3s ease;
 }
 

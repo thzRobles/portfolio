@@ -35,31 +35,32 @@ window.addEventListener("scroll", function() {
 
 // setTimeout(typeWriter, speed);
 
-// whriter machine effect 2
-const machine = document.getElementById('dynamic-txt2');
+// // Se comenta, ya que no se agrego un segundo texto dinamico
+// // whriter machine effect 2
+// const machine = document.getElementById('dynamic-txt2');
 
-const whriterMachine = (text = '', time = 200, tag = '') => {
-    let arrayCharacters = text.split('');
-    tag.innerHTML = '';
-    let i = 0;
-    let j = text.length;
-    let whrite = setInterval(function(){
-        if (i === arrayCharacters.length) {
-            tag.innerHTML = text.substring(0, j)
-            j--
-            if (j === 0) {
-                i = 0;
-                tag.innerHTML = '';
-                j = text.length;
-            }
-        } else {
-            tag.innerHTML += arrayCharacters[i]
-            i++
-        }
-    }, time)
-}
+// const whriterMachine = (text = '', time = 200, tag = '') => {
+//     let arrayCharacters = text.split('');
+//     tag.innerHTML = '';
+//     let i = 0;
+//     let j = text.length;
+//     let whrite = setInterval(function(){
+//         if (i === arrayCharacters.length) {
+//             tag.innerHTML = text.substring(0, j)
+//             j--
+//             if (j === 0) {
+//                 i = 0;
+//                 tag.innerHTML = '';
+//                 j = text.length;
+//             }
+//         } else {
+//             tag.innerHTML += arrayCharacters[i]
+//             i++
+//         }
+//     }, time)
+// }
 
-whriterMachine(" Software Engineer  ", 150, machine);
+// whriterMachine(" Software Engineer  ", 150, machine);
 
 // show effect
 let ubication = window.pageYOffset;
