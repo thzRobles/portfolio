@@ -8,11 +8,15 @@
     <title>Portfolio</title>
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/columns.css">
     <!-- nepal -->
     <link rel="stylesheet" href="css/nepal.css">
     <!-- dynamictxt -->
     <link rel="stylesheet" href="css/dynamictxt.css">
+    <!-- gallery -->
+    <!-- <link rel="stylesheet" href="css/gallery.css"> -->
+    <!-- Isotope -->
+    <link rel="stylesheet" href="css/isotope.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <!-- google fonts -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
@@ -26,9 +30,6 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <!-- Isotope -->
-    <link rel="stylesheet" href="css/isotope.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 
 <body>
@@ -156,7 +157,8 @@
 
                 <div class="skills-item skills-i1">My skills</div>
                 <div class="skills-item skills-i2">what i know</div>
-                <div class="skills-item skills-i3 skills-subtitle">My creative skills & experiences</div>
+                <!-- <div class="skills-item skills-i3 skills-subtitle">My creative skills & experiences</div> -->
+                <div class="skills-item skills-i3 skills-subtitle">My creative skills</div>
                 <!-- <div class="skills-item skills-i4"><p>Como parte de mis habilidades e tenido la oportunidad de aprender tecnologias web tanto del Front como del Back gracias a los proyectos en los que he colaborado. <br>Espero te gusten mis proyectos! estan debajo...</p></div> -->
                 <div class="skills-item skills-i4">
                     <p>As part of my skills, I have had the opportunity to learn web technologies both on the Front-end
@@ -180,9 +182,6 @@
                     <div class="s-i5-s"><img src="img/skills/vs2019-white.png" alt="visual studio 2019"
                             title="visual studio 2019"></div>
                     <div class="s-i5-s"><img src="img/skills/csharp-white.png" alt="c#" title="c#"></div>
-                    <!-- <div class="s-i5-s"><img src="img/skills/sass-white.png" alt="sass" title="sass"></div> -->
-                    <!-- <div class="s-i5-s"><img src="img/skills/materialize-white.png" alt="materialize" title="materialize"></div> -->
-                    <!-- <div class="s-i5-s"><img src="img/skills/swiper-white.png" alt="swiper" title="swiper"></div> -->
                     <div class="s-i5-s"><img src="img/skills/sqlserver-white.png" alt="sql server" title="sql server">
                     </div>
                     <div class="s-i5-s"><img src="img/skills/mongodb-white.png" alt="mongodb" title="mongodb"></div>
@@ -192,11 +191,7 @@
                     </div>
                     <div class="s-i5-s"><img src="img/skills/aillustrator-white.png" alt="Adobe Illustrator"
                             title="Adobe Illustrator"></div>
-                    <!-- React Native -->
-                    <!-- Gira -->
-                    <!-- IIS -->
                     <!-- Phyton -->
-                    <!-- Ionic -->
                 </div>
             </div>
             <!-- <div class="skills-item skills-i6 button"><a href="">Read more</a></div> -->
@@ -216,30 +211,109 @@
                         <div class="filter-buttons">
                             <button data-filter="*" class="active">Todas</button>
                             <button data-filter=".javascript">JavaScript</button>
-                            <!-- <button data-filter=".react">React</button> -->
                             <button data-filter=".react">React Native</button>
                             <button data-filter=".angular">Angular</button>
                             <button data-filter=".csharp">C#</button>
                             <button data-filter=".otros">Otros</button>
                         </div>
+                        <!-- Botones de filtro (funcion personalizada) -->
+                        <!-- <div class="filter-buttons">
+                            <button data-filter="*" class="active" onclick="filterImages('all')">Todas</button>
+                            <button data-filter=".javascript" onclick="filterImages('javascript')">JavaScript</button>
+                            <button data-filter=".react" onclick="filterImages('react')">React Native</button>
+                            <button data-filter=".angular" onclick="filterImages('angular')">Angular</button>
+                            <button data-filter=".csharp" onclick="filterImages('csharp')">C#</button>
+                            <button data-filter=".otros" onclick="filterImages('otros')">Otros</button>
+                        </div> -->
 
-                        <!-- Galería de imágenes -->
+                        <!-- Galery -->
                         <div class="gallery">
-                            <div class="gallery-item javascript"><img src="img/screenshots/cvspage-ss-1.png" alt="JavaScript"></div>
-                            <div class="gallery-item react"><img src="img/screenshots/appchecador-ss-1.jpeg" alt="React"></div>
-                            <div class="gallery-item angular"><img src="img/fgray.jpg" alt="Angular"></div>
-                            <div class="gallery-item csharp"><img src="img/fgray.jpg" alt="C#"></div>
-                            <div class="gallery-item otros"><img src="img/fgray.jpg" alt="Otros"></div>
-                            <div class="gallery-item javascript"><img src="img/fgray.jpg" alt="JavaScript"></div>
-                            <div class="gallery-item react"><img src="img/fgray.jpg" alt="React"></div>
-                            <div class="gallery-item angular"><img src="img/fgray.jpg" alt="Angular"></div>
-                            <div class="gallery-item csharp"><img src="img/fgray.jpg" alt="C#"></div>
-                            <div class="gallery-item otros"><img src="img/fgray.jpg" alt="Otros"></div>
+
+                            <!-- item image -->
+                            <div class="gallery-item javascript">
+                                <img class="gallery-item-img" src="img/projects/cvspage-home.png" alt="JavaScript" data-categories="javascript">
+                                <div class="gallery-item-hidden">
+                                    <a class="gallery-item-hidden-a" target="_blank" href="https://cvs-pharmacy.com.mx/">
+                                        <span class="material-symbols-outlined">
+                                            link
+                                        </span>
+                                    </a>
+                                    <div class="gallery-item-hidden-description"></div>
+                                </div>
+                            </div>
+
+                            <!-- item image -->
+                            <div class="gallery-item react">
+                                <img class="gallery-item-img" src="img/projects/appchecador-login.jpeg" alt="React" data-categories="react">
+                                <div class="gallery-item-hidden">
+                                    <a class="gallery-item-hidden-a" href="">
+                                        <span class="material-symbols-outlined">
+                                            link
+                                        </span>
+                                    </a>
+                                    <div class="gallery-item-hidden-description"></div>
+                                </div>
+                            </div>
+
+                            <!-- item image -->
+                            <div class="gallery-item angular">
+                                <img class="gallery-item-img" src="img/bglightgray.jpg" alt="Angular" data-categories="angular">
+                                <div class="gallery-item-hidden">
+                                    <a class="gallery-item-hidden-a" href="">
+                                        <span class="material-symbols-outlined">
+                                            link
+                                        </span>
+                                    </a>
+                                    <div class="gallery-item-hidden-description">This space it's for your project... ;)</div>
+                                </div>
+                            </div>
+
+                            <!-- item image -->
+                            <div class="gallery-item csharp">
+                                <img class="gallery-item-img" src="img/bglightgray.jpg" alt="C#" data-categories="csharp">
+                                <div class="gallery-item-hidden">
+                                    <a class="gallery-item-hidden-a" href="">
+                                        <span class="material-symbols-outlined">
+                                            link
+                                        </span>
+                                    </a>
+                                    <div class="gallery-item-hidden-description">In construction... B)</div>
+                                </div>
+                            </div>
+
+                            <!-- item image -->
+                            <div class="gallery-item otros">
+                                <img class="gallery-item-img" src="img/projects/date-splashart.png" alt="Otros" data-categories="otros">
+                                <div class="gallery-item-hidden">
+                                    <a class="gallery-item-hidden-a" target="_blank" href="https://www.figma.com/proto/guhOFAyb1I2ZIzaKxtMjRZ/Date?node-id=30-97&starting-point-node-id=30%3A97">
+                                        <span class="material-symbols-outlined">
+                                            link
+                                        </span>
+                                    </a>
+                                    <div class="gallery-item-hidden-description"></div>
+                                </div>
+                            </div>
+
+                            <!-- item image -->
+                            <div class="gallery-item javascript">
+                                <img class="gallery-item-img" src="img/bglightgray.jpg" alt="JavaScript" data-categories="javascript">
+                                <div class="gallery-item-hidden">
+                                    <a class="gallery-item-hidden-a" href="">
+                                        <span class="material-symbols-outlined">
+                                            link
+                                        </span>
+                                    </a>
+                                    <div class="gallery-item-hidden-description">reserved for you... :D</div>
+                                </div>
+                            </div>
+
+                            
+
                         </div>
 
                     </div>
 
-                    <div class="projecs-item projects-i4 button2"><a target="_blank" href="https://github.com/thzRobles?tab=repositories">More</a></div>
+                    <div class="projecs-item button"><a target="_blank" href="https://github.com/thzRobles?tab=repositories">More</a></div>
                 </div>
             </div>
         </div>
@@ -248,21 +322,24 @@
     <!-- contact --------------------------------------------------------- -->
     <section class="section-contact" id="section-contact">
         <div class="contact-container">
-            <div class="contact-item contact-i1">Contact me</div>
-            <div class="contact-item contact-i2">get in touch</div>
-            <div class="contact-item contact-i3">Message me</div>
-            <div class="contact-item contact-i4">
-                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
-                    data-netlify-recaptcha="true">
-                    <input class="display-none" name="bot-field">
-                    <input class="c-i4-s1" type="text" name="name" id="" placeholder="Name" required>
-                    <input class="c-i4-s2" type="email" name="email" id="" placeholder="Email" required>
-                    <input class="c-i4-s3" type="text" name="subject" id="" placeholder="Subject" required>
-                    <textarea class="c-i4-s4" name="message" id="" cols="30" rows="5" maxlength="500"
-                        placeholder="Message"></textarea>
-                    <div class="recaptcha" data-netlify-recaptcha="true"></div>
-                    <input class="c-i4-s5" type="submit" value="Send message">
-                </form>
+            <div class="contact-content">
+                <div class="contact-item contact-i1">Contact me</div>
+                <div class="contact-item contact-i2">get in touch</div>
+                <div class="contact-item contact-i3">Message me</div>
+                <div class="contact-item contact-i4">
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+                        data-netlify-recaptcha="true">
+                        <input class="display-none" name="bot-field">
+                        <input class="c-i4-s1" type="text" name="name" id="" placeholder="Name" required>
+                        <input class="c-i4-s2" type="email" name="email" id="" placeholder="Email" required>
+                        <input class="c-i4-s3" type="text" name="subject" id="" placeholder="Subject" required>
+                        <textarea class="c-i4-s4" name="message" id="" cols="30" rows="5" maxlength="500"
+                            placeholder="Message"></textarea>
+                        <div class="recaptcha" data-netlify-recaptcha="true"></div>
+                        <!-- <input class="c-i4-s5" type="submit" value="Send message"> -->
+                        <input class="c-i4-s5" type="submit" value="Send message">
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -286,11 +363,15 @@
         </div>
     </footer>
 
+    <!-- general -->
     <script src="js/script.js"></script>
+    <!-- filter -->
+    <!-- <script src="js/filter.js"></script> -->
     <!-- Isotope -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script> -->
-    <!-- <script src="js/isotope.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="js/isotope.js"></script>
+
 </body>
 
 </html>

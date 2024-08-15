@@ -32,18 +32,17 @@
     --five-color-aqua-theme: #20b2aa;
   }
 
-    /* General styles ------------------------------------------------------- */
+/* gallery ------------------------------------------------------- */
 
 * {
     box-sizing: border-box;
 }
 
 img {
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 .gallery-container {
-    /* max-width: 1200px; */
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -54,59 +53,24 @@ img {
 }
 
 .filter-buttons button {
-    padding: 0px 5px;
+    padding: 10px 15px;
     margin: 5px;
-    margin-bottom: 30px;
-    line-height: 1.5;
     border: none;
-    background-color: transparent;
-    color: var(--five-color-dark-theme);
+    background-color: #007bff;
+    color: white;
     cursor: pointer;
-    font-size: 12px;
-    text-transform: uppercase;
-    transition: all 0.3s ease-in-out 0s;
-
+    font-size: 16px;
 }
 
 .filter-buttons button.active,
 .filter-buttons button:hover {
-    /* background-color: #0056b3; */
-    /* color: aqua; */
-    color: var(--fourth-color-dark-theme);
-    text-decoration:line-through;
-    /* font-weight: 800; */
+    background-color: #0056b3;
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20;
-}
-
-.gallery-item {
-    width: 33.33%;
-    height: 200px;
-    overflow: hidden;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-}
-
-/* .gallery-item img {
-    width: 100%;
-    display: block;
-    transition: transform 0.3s ease;
-} */
-
-/* .gallery-item img:hover {
-    transform: scale(1.1);
-} */
-
-
-
-/* .gallery {
     columns: 4 360px;
     column-gap: 1.2em;
-} */
+}
 
 .gallery-item {
     /* border: 5px solid black; */
@@ -131,8 +95,9 @@ img {
     opacity: .7;
     transition: transform 0.35s ease, opacity 0.45s ease-in;
     overflow: hidden;
-    outline: 3px solid #fff;
-    outline-offset: -10px;
+    /* outline: 3px solid #fff; */
+    /* outline-offset: -10px; */
+    /* object-fit: cover; */
 
     transition: 0.3s ease all;
 }
@@ -187,10 +152,10 @@ img {
 
 .gallery-item:hover .gallery-item-img {
     /* transform: scale(0.99); */
-    opacity: 0.1;
+    /* opacity: 0.1; */
     cursor: pointer;
     filter: grayscale(0);
-    /* opacity: 1; */
+    opacity: 1;
 }
 
 .gallery-item:hover span {
