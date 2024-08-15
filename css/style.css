@@ -589,7 +589,7 @@ width: 100%;
 }
 
 .about-container .about-i6 {
-    grid-column: 1 / span 2;
+    /* grid-column: 1 / span 2; */
 }
 
 /* skills */
@@ -632,6 +632,7 @@ width: 100%;
 .about-i7 .about-i7-skill {
     display: flex;
     gap: 7px;
+    justify-content: center;
 }
 
 .about-greeting {
@@ -654,7 +655,8 @@ width: 100%;
     align-self: center;
 }
 
-.about-i7-skill span {
+.about-i7-skill span,
+.about-i7-skill svg {
     align-self: center;
 }
 
@@ -1141,7 +1143,8 @@ textarea {
 /* footer ----------------------------------------------------------------- */
 .section-footer {
     width: 100%;
-    background: var(--second-color-light-theme);
+    /* background: var(--second-color-light-theme); */
+    background: var(--third-color-dark-theme);
 }
 
 .footer-container {
@@ -1164,7 +1167,8 @@ textarea {
 
 .footer-container .footer-item {
     width: 30px;
-    height: 30px;
+    /* height: 30px; */
+    height: 20px;
 }
 
 .footer-container a img {
