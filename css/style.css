@@ -432,29 +432,100 @@ section[id] {
 }
 
 @media (max-width: 900px) {
+    .section-main {
+
+    }
     .main-container {
+        border: 1px solid aqua;
         /* width: 65%; */
+        height: 45vh;
+    }
+    .main-content {
+        width: 80%;
+    }
+    .container-photo-jrbg {
+        right: 10%;
+    }
+    #item-photo-jrbg {
+        height: 85%;
     }
 }
 
 @media (max-width: 750px) {
     .main-container {
         /* width: 90%; */
-        margin-left: 20%;
+        /* margin-left: 20%; */
     }
 }
 
 @media (max-width: 650px) {
     .main-container {
         /* width: 90%; */
-        margin-left: 15%;
+        /* margin-left: 15%; */
     }
 }
 
 @media (max-width: 600px) {
+    .section-main {
+
+    }
+    .main-container {
+        border: 1px solid aqua;
+        /* width: 90%; */
+        height: 45vh;
+    }
+    .main-content {
+        width: 90%;
+    }
+    .item-presentation-container {
+
+    }
+    .txt-style1 {
+        font-size: 14px;
+        font-weight: 700;
+        color: #919191;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+        margin-bottom: 11px;
+    }
+    .txt-style2 {
+        font-size: 65px;
+        font-weight: 600;
+    }
+    
+    .txt-style3 {
+        font-size: 34px;
+        font-weight: 700;
+        color: var(--fourth-color-light-theme);
+        text-transform: uppercase;
+        line-height: 18px;
+        box-sizing: border-box;
+    
+        margin-bottom: 24px;
+    }
+    
+    .main-container .intro-wrapper {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    .main-container p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container-photo-jrbg {
+        right: 10%;
+    }
+    #item-photo-jrbg {
+        height: 70%;
+    }
+
+
+
     .main-container {
         /* width: 90%; */
-        margin-left: 30%;
+        /* margin-left: 30%; */
 
     }
     .intro-wrapper .static-txt {
@@ -463,31 +534,31 @@ section[id] {
     .main-container .txt-style1,
     .main-container .intro-wrapper .static-txt,
     .main-container .intro-wrapper .dynamic-txts li {
-        font-size: 27px;
+        /* font-size: 27px; */
     }
     .main-container .txt-style2 {
-        font-size: 50px;
+        /* font-size: 50px; */
     }
 }
 
 @media (max-width: 500px) {
     .main-container {
         /* width: 90%; */
-        margin-left: 20%;
+        /* margin-left: 20%; */
     }
 }
 
 @media (max-width: 450px) {
     .main-container {
         /* width: 90%; */
-        margin-left: 10%;
+        /* margin-left: 10%; */
     }
 }
 
 @media (max-width: 380px) {
     .main-container {
         /* width: 90%; */
-        margin-left: 5%;
+        /* margin-left: 5%; */
     }
 }
 
