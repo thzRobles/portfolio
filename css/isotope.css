@@ -249,3 +249,16 @@ img {
     bottom: 20%;
     /* background-color: red; */
 }
+
+@media (max-width: 600px) {
+    .gallery-item {
+        width: 100% !important;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .gallery-item{
+        width: 50%;
+    }
+}
