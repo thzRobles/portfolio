@@ -251,6 +251,21 @@ img {
 }
 
 @media (max-width: 600px) {
+    .gallery-container {
+        /* border: 1px solid red; */
+        height: 270px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .filter-buttons {
+        display: none;
+    }
+    .gallery {
+        /* border: 1px solid orangered; */
+        display: none;
+    }
     .gallery-item {
         width: 100% !important;
     }
