@@ -255,10 +255,6 @@ img {
         /* border: 1px solid red; */
         height: 270px;
     }
-    
-}
-
-@media (max-width: 600px) {
     .filter-buttons {
         display: none;
     }
