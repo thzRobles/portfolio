@@ -231,7 +231,7 @@ img {
 }
 
 .gallery-item:hover .gallery-item-img {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     /* opacity: 0.1; */
     cursor: pointer;
     filter: grayscale(0);
