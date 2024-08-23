@@ -427,9 +427,7 @@ section[id] {
 }
 
 .item-presentation-container {
-    /* border: 1px solid green; */
-    position: absolute;
-    top: 17%;
+
 }
 
 .txt-style1 {
@@ -539,7 +537,10 @@ section[id] {
     }
 
     .item-presentation-container {
-        z-index: 999;
+        /* border: 1px solid green; */
+        z-index: 1;
+        position: absolute;
+        top: 17%;
     }
 
     .txt-style1 {
