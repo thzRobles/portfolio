@@ -37,6 +37,25 @@
     transition: opacity 0.5s ease;
 }
 
+.slide-item-description {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    /* top: 60%; */
+    /* bottom: 25%; */
+    text-align: center;
+    font-size: 1.1em;
+
+    /* opacity: 0; */
+    /* transition: 0.5s ease-in-out; */
+
+    font-size: 20px;
+    color: #636363;
+    font-weight: 400;
+    line-height: 1.1;
+    /* z-index: 1; */
+}
+
 .slide .active {
     opacity: 1;
 }
