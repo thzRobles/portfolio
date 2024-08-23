@@ -42,9 +42,24 @@ function endDrag(e) {
     handleSwipe(direction);
 }
 
+function handleClick(e) {
+    const url = e.currentTarget.getAttribute('data-url');
+    if (url) {
+        window.location.href = url;
+    }
+}
+
 slides.forEach(slide => {
     slide.addEventListener('mousedown', startDrag);
     slide.addEventListener('touchstart', startDrag);
     slide.addEventListener('mouseup', endDrag);
     slide.addEventListener('touchend', endDrag);
+
+    // Añadir eventos de click y touchend para la redirección
+    slide.addEventListener('click', handleClick);
+    slide.addEventListener('touchend', function(e) {
+        if (!isDragging) {
+            handleClick(e);
+        }
+    });
 });
