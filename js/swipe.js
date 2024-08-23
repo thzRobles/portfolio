@@ -25,12 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (Math.abs(diffX) > Math.abs(diffY)) {
 
-            console.log(diffX)
-
             // Sliding horizontally
             if (diffX > 30) {
                 // Swiped left
-                console.log("Swiped left");
+                // console.log("Swiped left");
                 // Aquí puedes agregar la lógica para la acción al deslizar hacia la izquierda
                 handleSwipe("left");
             }
