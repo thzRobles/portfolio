@@ -428,6 +428,8 @@ section[id] {
 
 .item-presentation-container {
     /* border: 1px solid green; */
+    position: absolute;
+    top: 17%;
 }
 
 .txt-style1 {
@@ -477,6 +479,7 @@ section[id] {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    /* z-index: -1; */
 }
 
 #item-photo-jrbg {
@@ -535,7 +538,9 @@ section[id] {
         width: 90%;
     }
 
-    .item-presentation-container {}
+    .item-presentation-container {
+        z-index: 999;
+    }
 
     .txt-style1 {
         font-size: 14px;
